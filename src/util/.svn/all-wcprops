@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2100/srs3/src/util
+END
+ANDing.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2026/srs3/src/util/ANDing.java
+END
+Subnet.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2052/srs3/src/util/Subnet.java
+END
+IOUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2012/srs3/src/util/IOUtilities.java
+END
+LoaderProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2012/srs3/src/util/LoaderProperties.java
+END
+VolumeUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2052/srs3/src/util/VolumeUtilities.java
+END
+Conversion.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2026/srs3/src/util/Conversion.java
+END
+JMSUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2044/srs3/src/util/JMSUtilities.java
+END
+HashMapUtilitie.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2100/srs3/src/util/HashMapUtilitie.java
+END
+PropertieWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2012/srs3/src/util/PropertieWrapper.java
+END
+GetProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2022/srs3/src/util/GetProperties.java
+END
+SerializableObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2012/srs3/src/util/SerializableObject.java
+END

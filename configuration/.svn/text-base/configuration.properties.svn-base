@@ -1,0 +1,15 @@
+jms.connection.factory =jms_connection_factory_ssn
+jms.topic =jms_topic_ssn
+my.name=192.168.208.8
+
+#DB config
+database.use.headers=false
+database.server=localhost:3306
+database.user=root
+database.password=vitalnoc
+database.class=com.mysql.jdbc.Driver
+database.name=ssnDBconversV3
+database.table.headers.prefijo=day
+database.table.convers.prefijo=conv
+database.jdbc=jdbc:mysql://
+

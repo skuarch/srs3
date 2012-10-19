@@ -1,0 +1,25 @@
+2012-02-27 18:11:18,426 [Thread-19] ERROR sniffer.Jobs  - run 
+java.lang.NullPointerException
+	at sniffer.Jobs.run(Jobs.java:26)
+	at java.lang.Thread.run(Thread.java:662)
+2012-02-28 20:32:43,404 [main] ERROR jms.JMSProccessor  - receive
+com.sun.messaging.jms.JMSException: [C4063]: Cannot perform operation, consumer is closed.
+	at com.sun.messaging.jmq.jmsclient.MessageConsumerImpl.receive(MessageConsumerImpl.java:489)
+	at com.sun.messaging.jmq.jmsclient.MessageConsumerImpl.receive(MessageConsumerImpl.java:442)
+	at jms.JMSProccessor.receive(JMSProccessor.java:48)
+	at srs.Main.main(Main.java:25)
+Caused by: com.sun.messaging.jms.JMSException: [C4002]: Read packet failed. - cause: java.io.EOFException: Trying to read 72 bytes. Already read 0 bytes.
+	at com.sun.messaging.jmq.jmsclient.ExceptionHandler.getJMSException(ExceptionHandler.java:380)
+	at com.sun.messaging.jmq.jmsclient.ExceptionHandler.handleException(ExceptionHandler.java:331)
+	at com.sun.messaging.jmq.jmsclient.ProtocolHandler.readPacket(ProtocolHandler.java:1797)
+	at com.sun.messaging.jmq.jmsclient.ReadChannel.run(ReadChannel.java:1214)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: java.io.EOFException: Trying to read 72 bytes. Already read 0 bytes.
+	at com.sun.messaging.jmq.io.Packet.readFully(Packet.java:1823)
+	at com.sun.messaging.jmq.io.Packet.readFully(Packet.java:1779)
+	at com.sun.messaging.jmq.io.Packet.readPacket(Packet.java:1706)
+	at com.sun.messaging.jmq.io.ReadOnlyPacket.readPacket(ReadOnlyPacket.java:109)
+	at com.sun.messaging.jmq.io.ReadWritePacket.readPacket(ReadWritePacket.java:64)
+	at com.sun.messaging.jmq.jmsclient.protocol.SocketConnectionHandler.readPacket(SocketConnectionHandler.java:39)
+	at com.sun.messaging.jmq.jmsclient.ProtocolHandler.readPacket(ProtocolHandler.java:1762)
+	... 2 more

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2082/srs3/configuration
+END
+jndi.properties
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2012/srs3/configuration/jndi.properties
+END
+configuration.properties
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2082/srs3/configuration/configuration.properties
+END
+log.properties
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2012/srs3/configuration/log.properties
+END
